@@ -21,9 +21,7 @@ git clone <repo-url>
 cd ai-agent-challenge
 
 2. Install dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 3. Place your data
 PDF: data/<bank>/<bank>_sample.pdf
@@ -31,9 +29,7 @@ PDF: data/<bank>/<bank>_sample.pdf
 Expected CSV: data/<bank>/result.csv
 
 4. Run the agent
-bash
-Copy
-Edit
+
 python agent.py --target icici
 This will read the PDF & CSV.
 
@@ -42,9 +38,7 @@ If the parser doesn’t exist, it will generate custom_parsers/icici_parser.py.
 5. Check the result
 If the output matches the CSV:
 
-kotlin
-Copy
-Edit
+
 🎉 Test passed! Parsed data matches expected CSV.
 Otherwise, the agent will attempt to fix the parser (max 3 retries).
 
