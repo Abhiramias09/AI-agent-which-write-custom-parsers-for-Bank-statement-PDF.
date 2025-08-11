@@ -1,4 +1,5 @@
-# AI PDF Parser Agent
+# AI BANK PDF PARSER AGENT
+
 
 This project implements an AI agent that can automatically generate custom parsers for PDF bank statements. The agent follows a loop of **plan → generate code → run tests → self-fix** (up to 3 attempts) and produces a parser that outputs data matching the expected CSV format.
 
